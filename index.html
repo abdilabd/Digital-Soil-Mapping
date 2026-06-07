@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cartographie Numérique des Sols — Oise</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{
+  min-height:100%;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  background:#0a0a12;color:#e2e8f0;
+}
+
+/* Header */
+header{
+  padding:48px 32px 32px;
+  text-align:center;
+  border-bottom:1px solid rgba(255,255,255,0.07);
+}
+header h1{
+  font-size:1.6rem;font-weight:800;color:#e2e8f0;letter-spacing:0.2px;
+  margin-bottom:8px;
+}
+header p{
+  font-size:0.85rem;color:rgba(255,255,255,0.38);
+}
+.badge{
+  display:inline-block;margin-top:14px;
+  padding:4px 12px;border-radius:20px;
+  background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.30);
+  color:#93c5fd;font-size:0.72rem;font-weight:600;letter-spacing:0.5px;
+}
+
+/* Grid */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:18px;
+  padding:40px 32px 60px;
+  max-width:1100px;margin:0 auto;
+}
+
+/* Card */
+.card{
+  background:rgba(255,255,255,0.03);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:14px;
+  padding:22px 22px 18px;
+  text-decoration:none;color:inherit;
+  transition:transform .18s,border-color .18s,background .18s;
+  display:flex;flex-direction:column;gap:10px;
+}
+.card:hover{
+  transform:translateY(-3px);
+  border-color:rgba(255,255,255,0.18);
+  background:rgba(255,255,255,0.055);
+}
+.card-top{display:flex;align-items:center;gap:12px;}
+.swatch{
+  width:38px;height:38px;border-radius:9px;flex-shrink:0;
+  border:1px solid rgba(255,255,255,0.12);
+}
+.card-name{font-size:1rem;font-weight:700;color:#e2e8f0;}
+.card-unit{font-size:0.72rem;color:rgba(255,255,255,0.35);margin-top:1px;}
+.card-desc{font-size:0.78rem;color:rgba(255,255,255,0.45);line-height:1.55;}
+.card-depths{
+  display:flex;flex-wrap:wrap;gap:5px;margin-top:4px;
+}
+.depth-tag{
+  font-size:0.66rem;padding:2px 8px;border-radius:10px;
+  background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.40);
+}
+.card-arrow{
+  margin-top:auto;padding-top:10px;
+  font-size:0.75rem;color:rgba(255,255,255,0.25);
+  display:flex;align-items:center;gap:5px;
+}
+.card:hover .card-arrow{color:rgba(255,255,255,0.55);}
+
+/* Footer */
+footer{
+  text-align:center;padding:20px;
+  font-size:0.70rem;color:rgba(255,255,255,0.18);
+  border-top:1px solid rgba(255,255,255,0.05);
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Cartographie Numérique des Sols — Oise</h1>
+  <p>Département de l'Oise, France &nbsp;·&nbsp; Résolution 30 m &nbsp;·&nbsp; Random Forest + Krigeage</p>
+  <span class="badge">6 propriétés modélisées · 6 profondeurs</span>
+</header>
+
+<div class="grid">
+
+  <a class="card" href="argile/index.html">
+    <div class="card-top">
+      <div class="swatch" style="background:linear-gradient(135deg,#f5e6c8,#8B4513)"></div>
+      <div>
+        <div class="card-name">Argile</div>
+        <div class="card-unit">g/kg</div>
+      </div>
+    </div>
+    <div class="card-desc">Teneur en argile du sol. Modélisée sur 6 profondeurs de 0 à 200 cm.</div>
+    <div class="card-depths">
+      <span class="depth-tag">0–5 cm</span><span class="depth-tag">5–15 cm</span>
+      <span class="depth-tag">15–30 cm</span><span class="depth-tag">30–60 cm</span>
+      <span class="depth-tag">60–100 cm</span><span class="depth-tag">100–200 cm</span>
+    </div>
+    <div class="card-arrow">Ouvrir la carte →</div>
+  </a>
+
+  <a class="card" href="sable/index.html">
+    <div class="card-top">
+      <div class="swatch" style="background:linear-gradient(135deg,#ffffcc,#225ea8)"></div>
+      <div>
+        <div class="card-name">Sable</div>
+        <div class="card-unit">g/kg</div>
+      </div>
+    </div>
+    <div class="card-desc">Teneur en sable du sol. Classes : ≤400, 400–600, 600–800, ≥800 g/kg.</div>
+    <div class="card-depths">
+      <span class="depth-tag">0–5 cm</span><span class="depth-tag">5–15 cm</span>
+      <span class="depth-tag">15–30 cm</span><span class="depth-tag">30–60 cm</span>
+      <span class="depth-tag">60–100 cm</span>
+    </div>
+    <div class="card-arrow">Ouvrir la carte →</div>
+  </a>
+
+  <a class="card" href="limon/index.html">
+    <div class="card-top">
+      <div class="swatch" style="background:linear-gradient(135deg,#f7fcfd,#4d004b)"></div>
+      <div>
+        <div class="card-name">Limon</div>
+        <div class="card-unit">g/kg</div>
+      </div>
+    </div>
+    <div class="card-desc">Teneur en limon du sol. Classes : ≤250, 250–450, 450–600, 600–750, ≥750 g/kg.</div>
+    <div class="card-depths">
+      <span class="depth-tag">0–5 cm</span><span class="depth-tag">5–15 cm</span>
+      <span class="depth-tag">15–30 cm</span><span class="depth-tag">30–60 cm</span>
+      <span class="depth-tag">60–100 cm</span>
+    </div>
+    <div class="card-arrow">Ouvrir la carte →</div>
+  </a>
+
+  <a class="card" href="pheau/index.html">
+    <div class="card-top">
+      <div class="swatch" style="background:linear-gradient(135deg,#d53e4f,#4575b4)"></div>
+      <div>
+        <div class="card-name">pH eau</div>
+        <div class="card-unit">pH</div>
+      </div>
+    </div>
+    <div class="card-desc">pH du sol mesuré à l'eau. Gradient continu de 4 (acide) à 9 (alcalin).</div>
+    <div class="card-depths">
+      <span class="depth-tag">0–5 cm</span><span class="depth-tag">5–15 cm</span>
+      <span class="depth-tag">15–30 cm</span><span class="depth-tag">30–60 cm</span>
+      <span class="depth-tag">60–100 cm</span>
+    </div>
+    <div class="card-arrow">Ouvrir la carte →</div>
+  </a>
+
+  <a class="card" href="co/index.html">
+    <div class="card-top">
+      <div class="swatch" style="background:linear-gradient(135deg,#f7fcb9,#31a354)"></div>
+      <div>
+        <div class="card-name">Carbone organique</div>
+        <div class="card-unit">g/kg</div>
+      </div>
+    </div>
+    <div class="card-desc">Teneur en carbone organique. Modélisée jusqu'à 30–60 cm.</div>
+    <div class="card-depths">
+      <span class="depth-tag">0–5 cm</span><span class="depth-tag">5–15 cm</span>
+      <span class="depth-tag">15–30 cm</span><span class="depth-tag">30–60 cm</span>
+    </div>
+    <div class="card-arrow">Ouvrir la carte →</div>
+  </a>
+
+  <a class="card" href="cec/index.html">
+    <div class="card-top">
+      <div class="swatch" style="background:linear-gradient(135deg,#fee8c8,#7f0000)"></div>
+      <div>
+        <div class="card-name">CEC</div>
+        <div class="card-unit">meq/100g</div>
+      </div>
+    </div>
+    <div class="card-desc">Capacité d'Échange Cationique. Modélisée jusqu'à 60–100 cm.</div>
+    <div class="card-depths">
+      <span class="depth-tag">0–5 cm</span><span class="depth-tag">5–15 cm</span>
+      <span class="depth-tag">15–30 cm</span><span class="depth-tag">30–60 cm</span>
+      <span class="depth-tag">60–100 cm</span>
+    </div>
+    <div class="card-arrow">Ouvrir la carte →</div>
+  </a>
+
+</div>
+
+<footer>Département de l'Oise — Cartographie numérique des sols · 30 m · Random Forest</footer>
+
+</body>
+</html>

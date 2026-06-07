@@ -1,0 +1,23 @@
+# Large data files — not tracked
+Final_outputs/
+data/
+*.tif
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.qpj
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Notebooks with execution output
+*_executed.ipynb
+
+# Logs
+*.log
