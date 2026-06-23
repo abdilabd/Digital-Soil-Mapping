@@ -1,0 +1,436 @@
+{
+  "source_root": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs",
+  "mask": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\masque\\Departements.shp",
+  "properties": {
+    "argile": {
+      "0-5": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_0_5\\argile_0_5_mean_BEST.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_0_5\\argile_0_5_incertitude_BEST.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_0_5\\echantillons_modelisation_argile_0_5.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_0_5\\importance_MDI_50iter_argile_0_5cm_BEST.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_0_5\\metriques_iterations_argile_0_5cm_BEST.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 1141,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "5-15": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_5_15\\argile_5_15_mean_v3.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_5_15\\argile_5_15_incertitude_v3.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_5_15\\echantillons_modelisation_argile_5_15.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_5_15\\importance_MDI_50iter_argile_5_15cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_5_15\\metriques_iterations_v3.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 1142,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "15-30": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_15_30\\argile_15_30_mean_v3.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_15_30\\argile_15_30_incertitude_v3.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_15_30\\echantillons_modelisation_argile_15_30.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_15_30\\importance_MDI_50iter_argile_15_30cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_15_30\\metriques_iterations_v3.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 1145,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "30-60": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_30_60\\argile_30_60_mean_v3.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_30_60\\argile_30_60_incertitude_v3.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_30_60\\echantillons_modelisation_argile_30_60.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_30_60\\importance_MDI_50iter_argile_30_60cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_30_60\\metriques_iterations_v3.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 183,
+        "variable_count": 13,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "60-100": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_60_100\\argile_60_100_mean_v3.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_60_100\\argile_60_100_incertitude_v3.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_60_100\\echantillons_modelisation_argile_60_100.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_60_100\\importance_MDI_50iter_argile_60_100cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Argile_60_100\\metriques_iterations_v3.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 172,
+        "variable_count": 13,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "100-200": {
+        "modelable": false,
+        "reason": "No source folder supplied"
+      }
+    },
+    "sable": {
+      "0-5": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_0_5\\sable_0_5_mean_BEST.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_0_5\\sable_0_5_incertitude_BEST.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_0_5\\echantillons_modelisation_sable_0_5.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_0_5\\importance_MDI_50iter_sable_0_5cm_BEST.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_0_5\\metriques_iterations_sable_0_5cm_BEST.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 1200,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "5-15": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_5_15\\sable_5_15_mean_v2.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_5_15\\sable_5_15_incertitude_v2.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_5_15\\echantillons_modelisation_sable_5_15.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_5_15\\importance_MDI_50iter_sable_5_15cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_5_15\\metriques_iterations_v2.xlsx",
+        "metrics_mode": "summary_reconstructed",
+        "point_count": 1200,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "15-30": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_15_30\\sable_15_30_mean_v2.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_15_30\\sable_15_30_incertitude_v2.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_15_30\\echantillons_modelisation_sable_15_30.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_15_30\\importance_MDI_50iter_sable_15_30cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_15_30\\metriques_iterations_v2.xlsx",
+        "metrics_mode": "summary_reconstructed",
+        "point_count": 1201,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "30-60": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_30_60\\sable_30_60_mean_v2.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_30_60\\sable_30_60_incertitude_v2.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_30_60\\echantillons_modelisation_sable_30_60.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_30_60\\importance_MDI_50iter_sable_30_60cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_30_60\\metriques_iterations_v2.xlsx",
+        "metrics_mode": "summary_reconstructed",
+        "point_count": 183,
+        "variable_count": 13,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "60-100": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_60_100\\sable_30_60_mean_v2.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_60_100\\sable_30_60_incertitude_v2.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_60_100\\echantillons_modelisation_sable_60_100.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_60_100\\importance_MDI_50iter_sable_60_100cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Sable_60_100\\metriques_iterations_v2.xlsx",
+        "metrics_mode": "summary_reconstructed",
+        "point_count": 174,
+        "variable_count": 12,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "100-200": {
+        "modelable": false,
+        "reason": "No source folder supplied"
+      }
+    },
+    "limon": {
+      "0-5": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_0_5\\limon_5_15_mean_v2.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_0_5\\limon_5_15_incertitude_v2.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_0_5\\echantillons_modelisation_limon_0_5.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_0_5\\importance_MDI_50iter_limon_0_5cm_BEST.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_0_5\\metriques_iterations_v2.xlsx",
+        "metrics_mode": "summary_reconstructed",
+        "point_count": 1164,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "5-15": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_5_15\\limon_5_15_mean_v2.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_5_15\\limon_5_15_incertitude_v2.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_5_15\\echantillons_modelisation_limon_5_15.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_5_15\\importance_MDI_50iter_limon_5_15cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_5_15\\metriques_iterations_v2.xlsx",
+        "metrics_mode": "summary_reconstructed",
+        "point_count": 1165,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "15-30": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_15_30\\limon_15_30_mean_v2.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_15_30\\limon_15_30_incertitude_v2.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_15_30\\echantillons_modelisation_limon_15_30.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_15_30\\importance_MDI_50iter_limon_15_30cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_15_30\\metriques_iterations_v2.xlsx",
+        "metrics_mode": "summary_reconstructed",
+        "point_count": 1169,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "30-60": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_30_60\\limon_30_60_mean_v2.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_30_60\\limon_30_60_incertitude_v2.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_30_60\\echantillons_modelisation_limon_30_60.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_30_60\\importance_MDI_50iter_limon_30_60cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_30_60\\metriques_iterations_v2.xlsx",
+        "metrics_mode": "summary_reconstructed",
+        "point_count": 183,
+        "variable_count": 13,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "60-100": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_60_100\\limon_60_100_mean_v2.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_60_100\\limon_60_100_incertitude_v2.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_60_100\\echantillons_modelisation_limon_60_100.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_60_100\\importance_MDI_50iter_limon_60_100cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Limon_60_100\\metriques_iterations_v2.xlsx",
+        "metrics_mode": "summary_reconstructed",
+        "point_count": 174,
+        "variable_count": 12,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "100-200": {
+        "modelable": false,
+        "reason": "No source folder supplied"
+      }
+    },
+    "pheau": {
+      "0-5": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_0_5\\pheau_0_5_mean_BEST.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_0_5\\pheau_0_5_incertitude_BEST.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_0_5\\echantillons_modelisation_pheau_0_5.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_0_5\\importance_MDI_50iter_pheau_0_5cm_BEST.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_0_5\\metriques_iterations_pheau_0_5cm_BEST.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 1418,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "5-15": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_5_15\\pheau_5_15_mean_IND.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_5_15\\pheau_5_15_incertitude_IND.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_5_15\\echantillons_modelisation_pheau_5_15.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_5_15\\importance_MDI_50iter_pheau_5_15cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_5_15\\metriques_iterations_pheau_5_15cm_IND.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 1419,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "15-30": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_15_30\\pheau_15_30_mean_IND.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_15_30\\pheau_15_30_incertitude_IND.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_15_30\\echantillons_modelisation_pheau_15_30.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_15_30\\importance_MDI_50iter_pheau_15_30cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_15_30\\metriques_iterations_pheau_15_30cm_IND.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 1419,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "30-60": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_30_60\\pheau_30_60_mean_IND.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_30_60\\pheau_30_60_incertitude_IND.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_30_60\\echantillons_modelisation_pheau_30_60.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_30_60\\importance_MDI_50iter_pheau_30_60cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_30_60\\metriques_iterations_pheau_30_60cm_IND.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 179,
+        "variable_count": 11,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "60-100": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_60_100\\pheau_60_100_mean_IND.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_60_100\\pheau_60_100_incertitude_IND.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_60_100\\echantillons_modelisation_pheau_60_100.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_60_100\\importance_MDI_50iter_pheau_60_100cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\pHeau_60_100\\metriques_iterations_pheau_60_100cm_IND.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 170,
+        "variable_count": 10,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "100-200": {
+        "modelable": false,
+        "reason": "No source folder supplied"
+      }
+    },
+    "co": {
+      "0-5": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_0_5\\carbone_0_5_mean_BEST.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_0_5\\carbone_0_5_incertitude_BEST.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_0_5\\echantillons_modelisation_carbone_0_5.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_0_5\\importance_MDI_50iter_carbone_0_5cm_BEST.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_0_5\\metriques_iterations_carbone_0_5cm_BEST.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 1038,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "5-15": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_5_15\\carbone_5_15_mean_BEST.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_5_15\\carbone_5_15_incertitude_BEST.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_5_15\\echantillons_modelisation_carbone_5_15.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_5_15\\importance_MDI_50iter_carbone_5_15cm_BEST.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_5_15\\metriques_iterations_carbone_5_15cm_BEST.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 1041,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "15-30": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_15_30\\carbone_15_30_mean_BEST.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_15_30\\carbone_15_30_incertitude_BEST.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_15_30\\echantillons_modelisation_carbone_15_30.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_15_30\\importance_MDI_50iter_carbone_15_30cm_BEST.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_15_30\\metriques_iterations_carbone_15_30cm_BEST.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 1038,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "30-60": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_30_60\\carbone_30_60_mean_BEST.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_30_60\\carbone_30_60_incertitude_BEST.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_30_60\\echantillons_modelisation_carbone_30_60.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_30_60\\importance_MDI_50iter_carbone_30_60cm_BEST.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_30_60\\metriques_iterations_carbone_30_60cm_BEST.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 106,
+        "variable_count": 9,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "60-100": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_60_100\\carbone_60_100_mean_BEST.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_60_100\\carbone_60_100_incertitude_BEST.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_60_100\\echantillons_modelisation_carbone_60_100.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_60_100\\importance_MDI_50iter_carbone_60_100cm_BEST.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\Carbone_60_100\\metriques_iterations_carbone_60_100cm_BEST.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 93,
+        "variable_count": 9,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "100-200": {
+        "modelable": false,
+        "reason": "No source folder supplied"
+      }
+    },
+    "cec": {
+      "0-5": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_0_5\\cec_0_5_mean_BEST.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_0_5\\cec_0_5_incertitude_BEST.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_0_5\\echantillons_modelisation_cec_0_5.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_0_5\\importance_MDI_50iter_cec_0_5cm_BEST.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_0_5\\metriques_iterations_cec_0_5cm_BEST.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 1241,
+        "variable_count": 17,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "5-15": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_5_15\\cec_5_15_mean_IND.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_5_15\\cec_5_15_incertitude_IND.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_5_15\\echantillons_modelisation_cec_5_15.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_5_15\\importance_MDI_50iter_cec_5_15cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_5_15\\metriques_iterations_cec_5_15cm_IND.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 1241,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "15-30": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_15_30\\cec_15_30_mean_IND.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_15_30\\cec_15_30_incertitude_IND.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_15_30\\echantillons_modelisation_cec_15_30.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_15_30\\importance_MDI_50iter_cec_15_30cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_15_30\\metriques_iterations_cec_15_30cm_IND.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 1238,
+        "variable_count": 16,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "30-60": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_30_60\\cec_30_60_mean_IND.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_30_60\\cec_30_60_incertitude_IND.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_30_60\\echantillons_modelisation_cec_30_60.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_30_60\\importance_MDI_50iter_cec_30_60cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_30_60\\metriques_iterations_cec_30_60cm_IND.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 142,
+        "variable_count": 13,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "60-100": {
+        "modelable": true,
+        "raster": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_60_100\\cec_60_100_mean_IND.tif",
+        "uncertainty": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_60_100\\cec_60_100_incertitude_IND.tif",
+        "points": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_60_100\\echantillons_modelisation_cec_60_100.shp",
+        "mdi": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_60_100\\importance_MDI_50iter_cec_60_100cm_IND.xlsx",
+        "metrics": "C:\\Users\\zakab\\OneDrive\\Bureau\\NewDSM\\outputs\\CEC_60_100\\metriques_iterations_cec_60_100cm_IND.xlsx",
+        "metrics_mode": "iterations",
+        "point_count": 132,
+        "variable_count": 12,
+        "metric_count": 50,
+        "raster_sample_count": 1146
+      },
+      "100-200": {
+        "modelable": false,
+        "reason": "No source folder supplied"
+      }
+    }
+  },
+  "warnings": [
+    "sable 60-100: raster name 'sable_30_60_mean_v2.tif' does not match folder depth; folder assignment used.",
+    "limon 0-5: raster name 'limon_5_15_mean_v2.tif' does not match folder depth; folder assignment used."
+  ]
+}

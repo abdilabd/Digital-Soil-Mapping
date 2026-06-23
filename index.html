@@ -84,11 +84,28 @@ footer{
   font-size:0.70rem;color:rgba(255,255,255,0.18);
   border-top:1px solid rgba(255,255,255,0.05);
 }
+
+.language-switch{display:flex;align-items:center;gap:3px;padding:3px;
+  background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.12);
+  border-radius:9px;z-index:1200}
+.language-switch button{border:0;border-radius:6px;background:transparent;color:rgba(255,255,255,.48);
+  padding:5px 8px;font:700 .66rem/1 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  cursor:pointer;transition:background .15s,color .15s}
+.language-switch button:hover{color:#fff}
+.language-switch button.active{background:#2563eb;color:#fff;box-shadow:0 2px 7px rgba(37,99,235,.3)}
+
+header{position:relative}
+#home-language-switch{position:absolute;top:18px;right:24px}
+@media(max-width:620px){#home-language-switch{top:10px;right:10px}header{padding-top:62px}}
 </style>
 </head>
 <body>
 
 <header>
+  <div class="language-switch" id="home-language-switch" aria-label="Language / Langue">
+  <button type="button" data-lang="fr" onclick="setHomeLanguage('fr')">FR</button>
+  <button type="button" data-lang="en" onclick="setHomeLanguage('en')">EN</button>
+</div>
   <h1>Cartographie Numérique des Sols — Oise</h1>
   <p>Département de l'Oise, France &nbsp;·&nbsp; Résolution 30 m &nbsp;·&nbsp; Random Forest + Krigeage</p>
   <span class="badge">6 propriétés modélisées · 6 profondeurs</span>
@@ -202,5 +219,56 @@ footer{
 
 <footer>Département de l'Oise — Cartographie numérique des sols · 30 m · Random Forest</footer>
 
+<script>
+const HOME_TEXT = {
+  en: {
+    title:'Digital Soil Mapping — Oise',
+    subtitle:'Oise Department, France · 30 m resolution · Random Forest + Kriging',
+    badge:'6 modelled soil properties · 6 depths',
+    names:['Clay','Sand','Silt','Soil pH','Organic carbon','CEC'],
+    descriptions:[
+      'Soil clay content. Modelled across 6 depths from 0 to 200 cm.',
+      'Soil sand content. Classes: ≤400, 400–600, 600–800, ≥800 g/kg.',
+      'Soil silt content. Classes: ≤250, 250–450, 450–600, 600–750, ≥750 g/kg.',
+      'Soil pH measured in water. Continuous gradient from 4 (acidic) to 9 (alkaline).',
+      'Organic carbon content. Modelled down to 60–100 cm.',
+      'Cation exchange capacity. Modelled down to 60–100 cm.'
+    ],
+    open:'Open map →', footer:'Oise Department — Digital Soil Mapping · 30 m · Random Forest'
+  },
+  fr: {
+    title:'Cartographie numérique des sols — Oise',
+    subtitle:"Département de l’Oise, France · Résolution 30 m · Forêt aléatoire + Krigeage",
+    badge:'6 propriétés du sol modélisées · 6 profondeurs',
+    names:['Argile','Sable','Limon','pH eau','Carbone organique','CEC'],
+    descriptions:[
+      'Teneur en argile du sol. Modélisée sur 6 profondeurs de 0 à 200 cm.',
+      'Teneur en sable du sol. Classes : ≤400, 400–600, 600–800, ≥800 g/kg.',
+      'Teneur en limon du sol. Classes : ≤250, 250–450, 450–600, 600–750, ≥750 g/kg.',
+      'pH du sol mesuré dans l’eau. Gradient continu de 4 (acide) à 9 (alcalin).',
+      'Teneur en carbone organique. Modélisée jusqu’à 60–100 cm.',
+      'Capacité d’échange cationique. Modélisée jusqu’à 60–100 cm.'
+    ],
+    open:'Ouvrir la carte →', footer:'Département de l’Oise — Cartographie numérique des sols · 30 m · Forêt aléatoire'
+  }
+};
+function setHomeLanguage(lang){
+  localStorage.setItem('dsmLanguage',lang);
+  const t=HOME_TEXT[lang]||HOME_TEXT.en;
+  document.documentElement.lang=lang;
+  document.title=t.title;
+  document.querySelector('header h1').textContent=t.title;
+  document.querySelector('header p').textContent=t.subtitle;
+  document.querySelector('.badge').textContent=t.badge;
+  document.querySelectorAll('.card').forEach((card,i)=>{
+    card.querySelector('.card-name').textContent=t.names[i];
+    card.querySelector('.card-desc').textContent=t.descriptions[i];
+    card.querySelector('.card-arrow').textContent=t.open;
+  });
+  document.querySelector('footer').textContent=t.footer;
+  document.querySelectorAll('#home-language-switch button').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));
+}
+setHomeLanguage(localStorage.getItem('dsmLanguage')||'en');
+</script>
 </body>
 </html>
