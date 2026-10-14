@@ -448,11 +448,11 @@ const map = L.map('map', {
   maxZoom        : 17,
 });
 
-// Fond sombre CARTO Dark Matter (pas de clé API requise)
+// Fond sombre CARTO Dark Matter
 L.tileLayer(
-  'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+  'https://basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png?key=cb1_4ka0_1_deb1fc5e0d9dcac1b853d0f2',
   {attribution:'&copy; <a href="https://www.openstreetmap.org">OpenStreetMap</a> &copy; <a href="https://carto.com">CARTO</a>',
-   maxZoom:17, minZoom:8, subdomains:'abcd'}
+   maxZoom:17, minZoom:8}
 ).addTo(map);
 
 map.setView([49.5, 2.4], 9);
